@@ -26,7 +26,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1494610306"))
 OWNER = os.environ.get("OWNER", "skandalid")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://tcuvvwdt:o8TPmHsFdxfNttyv6gdk3amP731f6aGr@fanny.db.elephantsql.com/tcuvvwdt")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://oaevhbjb:dKxe0n7z9WIlPR3eFeySxKp2uDMdBSxu@queenie.db.elephantsql.com/oaevhbjb")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001710624279"))
