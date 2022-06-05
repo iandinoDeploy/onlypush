@@ -1,6 +1,4 @@
 # (©)Codexbotz
-# Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
 
 import logging
 import os
@@ -10,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5296342781:AAElUW-TJq4JXRqOqMgHukRnvBLdcLO7OOU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5478381823:AAFb6e4EqyjZKml7bHHFMnSY7K1F9E1IJAg")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "6244159"))
