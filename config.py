@@ -29,7 +29,7 @@ OWNER = os.environ.get("OWNER", "skandalid")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://oaevhbjb:dKxe0n7z9WIlPR3eFeySxKp2uDMdBSxu@queenie.db.elephantsql.com/oaevhbjb")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001710624279"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001652331980"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
