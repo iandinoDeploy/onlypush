@@ -40,7 +40,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Silahkan Tekan Tombol Join Jika Kamu Belum Join Untuk Menggunakan Bot Ini.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1494610306 2113034787 5241534420 5137157066 5116548438 5260047391 5226710611").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1494610306 2113034787 5241534420 5137157066 5116548438 5260047391 5226710611 5313671755").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
